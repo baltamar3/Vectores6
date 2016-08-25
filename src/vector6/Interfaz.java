@@ -111,6 +111,8 @@ public class Interfaz extends javax.swing.JFrame {
 
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Resultados"));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        txtSimetria.setEditable(false);
         jPanel3.add(txtSimetria, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 200, 40));
 
         jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 210, 220, 80));
